@@ -3,7 +3,7 @@
 
 I=$"Inputs: "
 ER=$"Expected result: "
-A
+
 echo Test case 1 for combined result less than 50
 echo $I "49 49"
 echo $ER "Fail"

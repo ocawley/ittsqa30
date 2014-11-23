@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://www.amazon.co.uk/" />
+<title>AmazonTodaysDeals</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">AmazonTodaysDeals</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>id=nav-search-label</td>
+	<td>Search</td>
+</tr>
+<tr>
+	<td>assertTitle</td>
+	<td>Amazon.co.uk: Low Prices in Electronics, Books, Sports Equipment &amp; more</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Today's Deals</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTitle</td>
+	<td>Amazon.co.uk Today's Deals: New Deals. Every Day.</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=b</td>
+	<td>Today's Deals</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=subscribe to the Deals Newsletter</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTitle</td>
+	<td>Subscription Details: Amazon.co.uk Deals Newsletter</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//p[5]</td>
+	<td>exact:Want to find other e-mail lists of interest? Find more subscriptions below.</td>
+</tr>
+
+</tbody></table>
+</body>
+</html>
